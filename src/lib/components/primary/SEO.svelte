@@ -6,7 +6,7 @@
 	export let keywords: string = 'svelte, seo, web development';
 	export let author: string = 'Your Name';
 	export let canonicalUrl: string = '';
-	export let ogImage: string = '/default-og-image.jpg';
+	export let ogImage: string = null;
 	export let twitterHandle: string = '@yourtwitterhandle';
 	export let twitterCardType: 'summary' | 'summary_large_image' = 'summary_large_image';
 
