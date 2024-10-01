@@ -14,9 +14,9 @@
 	<img
 		src={logo}
 		alt="Diagram Chasing"
-		class="p-1 mx-auto border-2 border-black rounded-lg size-72"
+		class="p-1 mx-auto border-2 border-black rounded-lg size-48 md:size-72"
 	/>
-	<p class="mx-auto text-xl font-medium text-center">
+	<p class="mx-auto text-sm font-medium text-center w-52 md:text-xl">
 		A publication of data-driven works of our interest, shared once in a while
 	</p>
 
@@ -26,7 +26,7 @@
 		class="flex items-center justify-center px-2 mx-auto text-white bg-gray-800 rounded-md w-fit"
 	>
 		<div class="w-3 h-3 mr-1 bg-yellow-400 rounded-full shadow-glow"></div>
-		<p class="font-mono text-sm font-bold text-center uppercase">Under construction</p>
+		<p class="font-mono text-xs font-bold text-center uppercase md:text-sm">Under construction</p>
 	</div>
 </section>
 
