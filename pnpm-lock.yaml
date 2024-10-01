@@ -8,12 +8,18 @@ dependencies:
   '@fontsource-variable/phudu':
     specifier: ^5.1.0
     version: 5.1.0
+  '@fontsource/chelsea-market':
+    specifier: ^5.1.0
+    version: 5.1.0
   '@fontsource/libre-caslon-condensed':
     specifier: ^5.1.0
     version: 5.1.0
   '@fontsource/roboto':
     specifier: ^5.1.0
     version: 5.1.0
+  '@neodrag/svelte':
+    specifier: ^2.0.6
+    version: 2.0.6
   shiki:
     specifier: ^1.20.0
     version: 1.20.0
@@ -52,6 +58,9 @@ devDependencies:
   date-fns:
     specifier: ^4.1.0
     version: 4.1.0
+  dotenv:
+    specifier: ^16.4.5
+    version: 16.4.5
   eslint:
     specifier: ^9.0.0
     version: 9.11.1
@@ -76,6 +85,9 @@ devDependencies:
   mdsvex:
     specifier: ^0.12.3
     version: 0.12.3(svelte@4.2.19)
+  papaparse:
+    specifier: ^5.4.1
+    version: 5.4.1
   postcss:
     specifier: ^8.4.47
     version: 8.4.47
@@ -406,6 +418,10 @@ packages:
     resolution: {integrity: sha512-3y6bSsnsnC+iC9bx3bWDjQAMz6TJ+cq76BJun03kgjCzeNFmSr17kRNRV8hz0vjE3KN3wTGiPX32LxVsyfas/Q==}
     dev: false
 
+  /@fontsource/chelsea-market@5.1.0:
+    resolution: {integrity: sha512-wW8cPI7s4lqn4lk+8xwT/oUAXYNOimWuxHN7HmnYDcaDIdKQecAVxwVPyNMVdngLsCAxd5Qg6qtPR2RQKdfkGg==}
+    dev: false
+
   /@fontsource/fira-mono@5.1.0:
     resolution: {integrity: sha512-6+nftSKApXyN0I9FC5GJuG5TUCh+in5OehtrXRIsHJvq38Pm//oA1kZZYNdXv99JYzLzJ3lzsTAavmS+xGLGDw==}
     dev: true
@@ -527,6 +543,10 @@ packages:
   /@neoconfetti/svelte@2.2.1:
     resolution: {integrity: sha512-2Ts0Rxaf6clW2qG+AKhTwpl01AAyZEAe03XeuQ7Vp+qYIaM3ycuI94j546fmEkUxwACwGI3Zl2cZ/pncTuNcJg==}
     dev: true
+
+  /@neodrag/svelte@2.0.6:
+    resolution: {integrity: sha512-jjmTjRTMJaer2IyEIoS5xbccmFmOpkeoTKpBORkMItCPjHWE19eW3kvH9SuTvZJAKnKERVNGdW3VBuDxZif9Dg==}
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1532,6 +1552,11 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: true
 
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
+    dev: true
+
   /eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
@@ -2418,6 +2443,10 @@ packages:
 
   /package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
+    dev: true
+
+  /papaparse@5.4.1:
+    resolution: {integrity: sha512-HipMsgJkZu8br23pW15uvo6sib6wne/4woLZPlFf3rpDyMe9ywEXUsuD7+6K9PRkJlVT51j/sCOYDKGGS3ZJrw==}
     dev: true
 
   /parent-module@1.0.1:

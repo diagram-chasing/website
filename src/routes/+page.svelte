@@ -1,6 +1,7 @@
 <script>
 	import SEO from '$components/primary/SEO.svelte';
 	import logo from '$assets/dc-logo.webp';
+	import IdeaGrid from '$lib/components/homepage/IdeaGrid.svelte';
 </script>
 
 <SEO
@@ -8,9 +9,13 @@
 	description="A publication of data-driven works of our interest, shared once in a while"
 />
 
-<section class="w-full max-w-sm align-center">
-	<hr class="my-4" />
-
+<section class="w-full max-w-sm pt-8 align-center">
+	<div
+		class="flex items-center justify-center px-2 mx-auto text-white bg-gray-800 rounded-md w-fit"
+	>
+		<div class="w-3 h-3 mr-1 bg-yellow-400 rounded-full shadow-glow"></div>
+		<p class="font-mono text-xs font-bold text-center uppercase md:text-sm">Under construction</p>
+	</div>
 	<img
 		src={logo}
 		alt="Diagram Chasing"
@@ -20,15 +25,11 @@
 		A publication of data-driven works of our interest, shared once in a while
 	</p>
 
-	<hr class="my-4" />
+	<p class="text-sm text-center w-52 md:text-md">by Aman & Vivek</p>
 
-	<div
-		class="flex items-center justify-center px-2 mx-auto text-white bg-gray-800 rounded-md w-fit"
-	>
-		<div class="w-3 h-3 mr-1 bg-yellow-400 rounded-full shadow-glow"></div>
-		<p class="font-mono text-xs font-bold text-center uppercase md:text-sm">Under construction</p>
-	</div>
+	<hr class="my-4" />
 </section>
+<IdeaGrid />
 
 <style>
 	section {

@@ -3,7 +3,14 @@ const svelteUx = require('svelte-ux/plugins/tailwind.cjs');
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts,md,mdx}', './node_modules/svelte-ux/**/*.{svelte,js}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				chelsea: ['Chelsea Market', 'sans-serif'],
+				caslon: ['Libre Caslon Condensed', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
+				phudu: ['Phudu Variable', 'sans-serif']
+			}
+		}
 	},
 	ux: {
 		themes: {

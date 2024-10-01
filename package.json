@@ -20,6 +20,7 @@
 		"autoprefixer": "^10.4.20",
 		"d3": "^7.9.0",
 		"date-fns": "^4.1.0",
+		"dotenv": "^16.4.5",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
@@ -28,6 +29,7 @@
 		"layerchart": "^0.51.2",
 		"lucide-svelte": "^0.446.0",
 		"mdsvex": "^0.12.3",
+		"papaparse": "^5.4.1",
 		"postcss": "^8.4.47",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
@@ -39,8 +41,10 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/phudu": "^5.1.0",
+		"@fontsource/chelsea-market": "^5.1.0",
 		"@fontsource/libre-caslon-condensed": "^5.1.0",
 		"@fontsource/roboto": "^5.1.0",
+		"@neodrag/svelte": "^2.0.6",
 		"shiki": "^1.20.0"
 	}
 }
