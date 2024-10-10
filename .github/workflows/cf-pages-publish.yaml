@@ -48,7 +48,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'diagramchasing-milton'
+          projectName: 'diagramchasing-website'
           directory: 'build'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: 'master'
