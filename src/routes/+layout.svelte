@@ -37,7 +37,7 @@
 	<Separator />
 </div>
 
-<div class="app">
+<div class="px-2 app">
 	<main>
 		<slot />
 	</main>
@@ -46,7 +46,7 @@
 <Separator />
 
 <footer
-	class="flex flex-col items-center justify-between w-full px-0 pb-4 sm:flex-row sm:items-center"
+	class="flex flex-col items-center justify-between w-full px-2 pb-4 sm:px-0 sm:flex-row sm:items-center"
 >
 	<p class="w-full text-xs font-caslon">
 		Brought to you by <a
@@ -61,7 +61,7 @@
 	</aside>
 	<a
 		href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
-		class="m-0 mt-2 p-0 sm:mt-0 w-[210px]"
+		class="p-0 m-0 mt-2 sm:mt-0"
 		target="_blank"
 	>
 		<img src={license} alt="Content licensed under CC" class="h-[15px] w-[85px]" />
