@@ -11,19 +11,14 @@
 	export let twitterCardType: 'summary' | 'summary_large_image' = 'summary_large_image';
 
 	let currentUrl: string;
-	let origin: string;
+
 	let fullOgImageUrl: string;
 	description = 'A publication of data-driven works of various interests, shared once in a while';
 	(keywords = 'data viz, india data, data storytellying, gis, data blog'),
 		(twitterHandle = '@diagram_chasing');
 	author = 'Diagram Chasing';
 	ogImage = 'sharecard.jpg';
-	$: fullOgImageUrl = ogImage ? `${origin}/${ogImage}` : null;
-
-	onMount(() => {
-		currentUrl = window.location.href;
-		origin = window.location.origin;
-	});
+	$: fullOgImageUrl = ogImage ? `https://diagramchasing.fun/${ogImage}` : null;
 </script>
 
 <svelte:head>
