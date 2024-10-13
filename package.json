@@ -8,7 +8,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"yaml": "node scripts/parse-yaml.js",
-		"ideas": "node scripts/get-ideas.js"
+		"ideas": "node scripts/get-ideas.js",
+		"update-content": "npm run yaml && npm run ideas"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^5.0.0",

@@ -5,13 +5,20 @@
 		if (a.status !== 'PUBLISHED' && b.status === 'PUBLISHED') return -1;
 		return 0;
 	});
+
+	let colors = {
+		BACKLOG: '',
+		WIP: 'bg-yellow-100',
+		PUBLISHED: 'bg-green-100',
+		ABANDONED: 'bg-red-100'
+	};
 </script>
 
 <div class="container px-4 mx-auto font-mono">
-	<h2 class="mb-4 text-2xl font-bold">Our Ideas</h2>
+	<h2 class="text-2xl font-bold">Ideas log</h2>
 	<p class="mb-6 font-roboto">
-		We keep our ideas and their status open source. If any of these vague descriptions interests
-		you, come help us work on it if you want.
+		We keep our ideas and what we might be working on open. If any of these vague descriptions (even
+		if seemingly abandoned) interests you, come help us work on it if you want.
 	</p>
 	<div class="overflow-x-auto">
 		<table class="w-full border-collapse">
@@ -26,9 +33,9 @@
 			</thead>
 			<tbody>
 				{#each ideas as idea}
-					<tr class="border-t border-gray-200 {idea.status === 'PUBLISHED' ? 'bg-green-100' : ''}">
+					<tr class="border-t border-gray-200 {idea.status ? colors[idea.status] : ''}">
 						<td class="w-24 p-2 text-xs whitespace-nowrap">{idea.date}</td>
-						<td class="p-2 w-36">{idea.pitch}</td>
+						<td class="p-2 w-36 first-letter:uppercase">{idea.pitch}</td>
 						<td class="hidden w-48 p-2 sm:table-cell">{idea.originator}</td>
 						<td class="p-2">
 							{#if idea.description}
@@ -49,10 +56,6 @@
 </div>
 
 <style>
-	:global(body) {
-		background-color: #f8f8f8;
-		color: #333;
-	}
 	table {
 		font-size: 0.875rem;
 	}

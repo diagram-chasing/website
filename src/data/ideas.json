@@ -1,102 +1,102 @@
 [
-	{
-		"date": "15-5-2024",
-		"pitch": "historical economic growth by district.",
-		"originator": "Vonter",
-		"description": "will be interesting to see economic growth disparities between urban and rural areas, and south vs north india\nwithin karnataka also, how much blr's dominance has increased over time",
-		"data": null,
-		"note_text": "Compare urban vs rural & S vs N econ growth. For example within K, track Bangalore's rise",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "15-5-2024",
-		"pitch": "india tree map",
-		"originator": "Aman",
-		"description": "Interactive map of trees around you and how your neighbourhood compares to others in your city in greenery",
-		"data": "https://sustainability.fb.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/",
-		"note_text": "Compare local tree coverage to city averages",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "16-5-2024",
-		"pitch": "disaster hazard map",
-		"originator": "Vonter",
-		"description": "https://nuclearsecrecy.com/nukemap/ this but for asteroids, volcanos and earthquakes inspired by https://en.wikipedia.org/wiki/Chicxulub_crater#Effects ",
-		"data": null,
-		"note_text": null,
-		"show_on_page": false,
-		"status": null
-	},
-	{
-		"date": "17-5-2024",
-		"pitch": "who decided the winner",
-		"originator": "VA",
-		"description": "https://www.nytimes.com/interactive/2016/08/01/us/elections/nine-percent-of-america-selected-trump-and-clinton.html",
-		"data": null,
-		"note_text": "Visualize % of population that chose election winners, like NYT's 9% Trump/Clinton graphic",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "07-05-2024",
-		"pitch": "where does my food come from",
-		"originator": "Vonter",
-		"description": "mapping the chances of where the ingredients used to make my food come from. ",
-		"data": "https://www.icrisat.org/",
-		"note_text": "Map probability of food ingredient origins.",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "07-05-2024",
-		"pitch": "flights to and from",
-		"originator": "Vonter",
-		"description": "city-wise pairs of flights, how many people travelled and so on. If you're going from X to Y, what is the chances of a delay?",
-		"data": "https://www.dgca.gov.in/digigov-portal/?page=259/4184/servicename",
-		"note_text": "Visualize city-pair flights, passenger numbers & delay probabilities",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "09-06-2024",
-		"pitch": "Displacement by metro",
-		"originator": "Aman",
-		"description": "I'd like to make a small graphic of the metro lines and the land before/after and who it has moved",
-		"data": "https://citizenmatters.in/81-infrastructure-roads-and-transport-cmh-road-no-to-metro-clash-of-local-economies/",
-		"note_text": "Metro lines impact on land use & population displacement",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "10-01-2024",
-		"pitch": "Knowledge graph of Bengaluru ",
-		"originator": "Aman",
-		"description": "A network graph of blr with named entities would be fun. I'd still want to see it. Like a who's who or what's what based on topic for a city. Especially something like blr which is constantly in the news. ",
-		"data": "NULL",
-		"note_text": "Network graph of Bangalore's key entities & relationships. 'Who's who' of city based on news topics.",
-		"show_on_page": true,
-		"status": null
-	},
-	{
-		"date": "10-12-2024",
-		"pitch": "Wildfire and species vulnerability",
-		"originator": "Vonter",
-		"description": "They have visualization of their own, but might be interesting to show things differently or overlayed with other information (local species diversity/vulnerability?)",
-		"data": "https://gwis.jrc.ec.europa.eu/applications/data-and-services,  https://livingplanetindex.org/data_portal",
-		"note_text": null,
-		"show_on_page": false,
-		"status": null
-	},
-	{
-		"date": "10-10-2024",
-		"pitch": "Housing along Hurricane Milton",
-		"originator": "Vonter",
-		"description": "a viz of new neighbourhoods that came up in the past decade, which are on the hurricane's projected path of destruction",
-		"data": "US Census, NOAA",
-		"note_text": null,
-		"show_on_page": false,
-		"status": "PUBLISHED"
-	}
+  {
+    "date": "15-5-2024",
+    "pitch": "historical economic growth by district.",
+    "originator": "Vonter",
+    "description": "will be interesting to see economic growth disparities between urban and rural areas, and south vs north india\nwithin karnataka also, how much blr's dominance has increased over time",
+    "data": null,
+    "note_text": "Compare urban vs rural & S vs N econ growth. For example within K, track Bangalore's rise",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "15-5-2024",
+    "pitch": "india tree map",
+    "originator": "Aman",
+    "description": "Interactive map of trees around you and how your neighbourhood compares to others in your city in greenery",
+    "data": "https://sustainability.fb.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/",
+    "note_text": "Compare local tree coverage to city averages",
+    "show_on_page": true,
+    "status": "WIP"
+  },
+  {
+    "date": "16-5-2024",
+    "pitch": "disaster hazard map",
+    "originator": "Vonter",
+    "description": "https://nuclearsecrecy.com/nukemap/ this but for asteroids, volcanos and earthquakes inspired by https://en.wikipedia.org/wiki/Chicxulub_crater#Effects ",
+    "data": null,
+    "note_text": null,
+    "show_on_page": false,
+    "status": null
+  },
+  {
+    "date": "17-5-2024",
+    "pitch": "who decided the winner",
+    "originator": "VA",
+    "description": "https://www.nytimes.com/interactive/2016/08/01/us/elections/nine-percent-of-america-selected-trump-and-clinton.html",
+    "data": null,
+    "note_text": "Visualize % of population that chose election winners, like NYT's 9% Trump/Clinton graphic",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "07-05-2024",
+    "pitch": "where does my food come from",
+    "originator": "Vonter",
+    "description": "mapping the chances of where the ingredients used to make my food come from. ",
+    "data": "https://www.icrisat.org/",
+    "note_text": "Map probability of food ingredient origins.",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "07-05-2024",
+    "pitch": "flights to and from",
+    "originator": "Vonter",
+    "description": "city-wise pairs of flights, how many people travelled and so on. If you're going from X to Y, what is the chances of a delay?",
+    "data": "https://www.dgca.gov.in/digigov-portal/?page=259/4184/servicename",
+    "note_text": "Visualize city-pair flights, passenger numbers & delay probabilities",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "09-06-2024",
+    "pitch": "Displacement by metro",
+    "originator": "Aman",
+    "description": "I'd like to make a small graphic of the metro lines and the land before/after and who it has moved",
+    "data": "https://citizenmatters.in/81-infrastructure-roads-and-transport-cmh-road-no-to-metro-clash-of-local-economies/",
+    "note_text": "Metro lines impact on land use & population displacement",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "10-01-2024",
+    "pitch": "Knowledge graph of Bengaluru ",
+    "originator": "Aman",
+    "description": "A network graph of blr with named entities would be fun. I'd still want to see it. Like a who's who or what's what based on topic for a city. Especially something like blr which is constantly in the news. ",
+    "data": "NULL",
+    "note_text": "Network graph of Bangalore's key entities & relationships. 'Who's who' of city based on news topics.",
+    "show_on_page": true,
+    "status": null
+  },
+  {
+    "date": "10-12-2024",
+    "pitch": "Wildfire and species vulnerability",
+    "originator": "Vonter",
+    "description": "They have visualization of their own, but might be interesting to show things differently or overlayed with other information (local species diversity/vulnerability?)",
+    "data": "https://gwis.jrc.ec.europa.eu/applications/data-and-services,  https://livingplanetindex.org/data_portal",
+    "note_text": null,
+    "show_on_page": false,
+    "status": null
+  },
+  {
+    "date": "10-10-2024",
+    "pitch": "Housing along Hurricane Milton",
+    "originator": "Vonter",
+    "description": "a viz of new neighbourhoods that came up in the past decade, which are on the hurricane's projected path of destruction",
+    "data": "US Census, NOAA",
+    "note_text": null,
+    "show_on_page": false,
+    "status": "PUBLISHED"
+  }
 ]
