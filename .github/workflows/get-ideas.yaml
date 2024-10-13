@@ -1,0 +1,32 @@
+# Workflow to get the ideas sheet and save as JSON
+name: Get Ideas
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to Netlify
+permissions:
+  contents: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "meta"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Google Sheet as CSV
+        run: curl -L ${{ secrets.IDEAS_SHEET_URL }} -o /tmp/sheet.csv
+      - name: Parse CSV in Python, save as JSON
+        run: cat /tmp/sheet.csv | python -c 'import csv, json, sys; print(json.dumps([dict(r) for r in csv.DictReader(sys.stdin)], indent=2))' | tee src/data/ideas.json
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
