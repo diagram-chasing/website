@@ -27,7 +27,7 @@ jobs:
         run: |
           for file in $(ls site-content);
           do
-            cat "$file" | python3 -c 'import sys, yaml, json; y=yaml.safe_load(sys.stdin.read()); print(json.dumps(y))' | tee "src/content/$file";
+            cat "site-content/$file" | python3 -c 'import sys, yaml, json; y=yaml.safe_load(sys.stdin.read()); print(json.dumps(y, indent=2, default=str, ensure_ascii=False))' | tee "src/content/${file%.yaml}.json";
           done
 
       # Commit all changed files back to the repository
