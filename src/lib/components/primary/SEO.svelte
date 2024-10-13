@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { base } from '$app/paths';
 
 	export let title: string = 'Default Title';
 	export let description: string = 'Default description of your website';
@@ -19,7 +18,7 @@
 		(twitterHandle = '@diagram_chasing');
 	author = 'Diagram Chasing';
 	ogImage = 'sharecard.jpg';
-	$: fullOgImageUrl = ogImage ? `${origin}${base}/static/${ogImage}` : null;
+	$: fullOgImageUrl = ogImage ? `${origin}/${ogImage}` : null;
 
 	onMount(() => {
 		currentUrl = window.location.href;
