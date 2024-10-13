@@ -12,9 +12,13 @@
 
 	let currentUrl: string;
 
-	onMount(() => {
-		currentUrl = window.location.href;
-	});
+	let fullOgImageUrl: string;
+	description = 'A publication of data-driven works of various interests, shared once in a while';
+	(keywords = 'data viz, india data, data storytellying, gis, data blog'),
+		(twitterHandle = '@diagram_chasing');
+	author = 'Diagram Chasing';
+	ogImage = 'sharecard.jpg';
+	$: fullOgImageUrl = ogImage ? `https://diagramchasing.fun/${ogImage}` : null;
 </script>
 
 <svelte:head>
@@ -32,7 +36,7 @@
 	<!-- Open Graph Tags -->
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content={ogImage} />
+	<meta property="og:image" content={fullOgImageUrl} />
 	<meta property="og:url" content={canonicalUrl || currentUrl} />
 	<meta property="og:type" content="website" />
 
@@ -41,7 +45,7 @@
 	<meta name="twitter:site" content={twitterHandle} />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content={ogImage} />
+	<meta name="twitter:image" content={fullOgImageUrl} />
 
 	<!-- Additional Meta Tags -->
 	<meta name="language" content="English" />
