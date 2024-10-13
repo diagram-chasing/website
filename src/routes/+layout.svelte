@@ -28,10 +28,14 @@
 			</div>
 		</div>
 		<nav
-			class="flex flex-row m-0 text-sm text-right no-underline sm:flex-col sm:items-end sm:text-right w-fit focus:border-none font-roboto"
+			class="flex flex-row w-32 m-0 text-sm text-right no-underline sm:flex-col sm:items-end sm:text-right focus:border-none font-roboto"
 		>
-			<a class="no-underline hover:underline underline-offset-4" href="/">~/home</a>
-			<a class="no-underline hover:underline underline-offset-4" href="/ideas">~/ideas</a>
+			<a class="no-underline hover:underline whitespace-nowrap underline-offset-4" href="/"
+				>~/home</a
+			>
+			<a class="no-underline hover:underline whitespace-nowrap underline-offset-4" href="/ideas"
+				>~/ideas</a
+			>
 		</nav>
 	</header>
 	<Separator />

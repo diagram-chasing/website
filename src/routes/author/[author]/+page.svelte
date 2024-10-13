@@ -3,8 +3,19 @@
 
 	export let data;
 	$: ({ author, posts } = data);
+
+	import Seo from '$components/primary/SEO.svelte';
 </script>
 
+<Seo
+	title="{author.name} | Diagram Chasing"
+	description="Our public log of what we're working on and all our other ideas"
+	keywords="data viz, india data, data storytellying, gis, data blog"
+	,
+	twitterHandle="@diagram_chasing"
+	author="Diagram Chasing"
+	ogImage="sharecard.jpg"
+/>
 <div class="container font-mono text-sm leading-relaxed">
 	<header>
 		<span class="text-xs text-gray-500">~/author</span>

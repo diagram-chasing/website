@@ -18,7 +18,12 @@
 
 <SEO
 	title="Diagram Chasing"
-	description="A publication of data-driven works of our interest, shared once in a while"
+	description="A publication of data-driven works of various interests, shared once in a while"
+	keywords="data viz, india data, data storytellying, gis, data blog"
+	,
+	twitterHandle="@diagram_chasing"
+	author="Diagram Chasing"
+	ogImage="sharecard.jpg"
 />
 
 <main class="relative w-full min-h-screen">
