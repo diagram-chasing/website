@@ -6,7 +6,7 @@
 		return 0;
 	});
 
-	let colors = {
+	const colors = {
 		BACKLOG: '',
 		WIP: 'bg-yellow-100',
 		PUBLISHED: 'bg-green-100',
@@ -25,19 +25,20 @@
 			<thead>
 				<tr class="bg-gray-100">
 					<th class="w-24 p-2 text-left">Date</th>
-					<th class="p-2 text-left w-36">Pitch</th>
-					<th class="hidden w-48 p-2 text-left sm:table-cell">Originator</th>
-					<th class="p-2 text-left">Description</th>
-					<th class="p-2 text-left w-28">Status</th>
+					<th class="w-40 p-2 text-left">Pitch</th>
+					<th class="w-24 p-2 text-left">Originator</th>
+					<th class="w-32 p-2 text-left">Description</th>
+					<th class="w-32 p-2 text-left">Data ideas</th>
+					<th class="w-24 p-2 text-left">Status</th>
 				</tr>
 			</thead>
 			<tbody>
 				{#each ideas as idea}
 					<tr class="border-t border-gray-200 {idea.status ? colors[idea.status] : ''}">
 						<td class="w-24 p-2 text-xs whitespace-nowrap">{idea.date}</td>
-						<td class="p-2 w-36 first-letter:uppercase">{idea.pitch}</td>
-						<td class="hidden w-48 p-2 sm:table-cell">{idea.originator}</td>
-						<td class="p-2">
+						<td class="w-40 p-2 first-letter:uppercase">{idea.pitch}</td>
+						<td class="w-24 p-2">{idea.originator}</td>
+						<td class="w-32 p-2">
 							{#if idea.description}
 								<details>
 									<summary class="text-blue-800 cursor-pointer hover:underline">View</summary>
@@ -47,7 +48,17 @@
 								<span class="text-gray-400">No description</span>
 							{/if}
 						</td>
-						<td class="p-2 whitespace-nowrap">{idea.status || 'BACKLOG'}</td>
+						<td class="w-32 p-2">
+							{#if idea.data}
+								<details>
+									<summary class="text-blue-800 cursor-pointer hover:underline">View</summary>
+									<p class="mt-2 text-sm font-roboto">{idea.data}</p>
+								</details>
+							{:else}
+								<span class="text-xs text-gray-400">None yet</span>
+							{/if}
+						</td>
+						<td class="w-24 p-2 whitespace-nowrap">{idea.status || 'BACKLOG'}</td>
 					</tr>
 				{/each}
 			</tbody>
