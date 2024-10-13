@@ -26,7 +26,7 @@
 	ogImage="sharecard.jpg"
 />
 
-<main class="relative w-full min-h-screen">
+<main class="relative w-full">
 	<header class="flex items-center justify-between w-full px-0 py-0 border-b border-black">
 		<nav aria-label="Story filter" class="p-0">
 			<ul class="flex gap-1 px-0">
@@ -59,7 +59,7 @@
 	</ul>
 
 	<p
-		class="absolute z-0 w-full font-mono text-sm text-left text-gray-700 select-none bottom-12"
+		class="z-0 w-full py-20 font-mono text-sm text-left text-gray-700 select-none"
 		aria-live="polite"
 	>
 		⧔ Not much else...for now ⧕
