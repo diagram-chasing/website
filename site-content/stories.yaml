@@ -1,0 +1,20 @@
+posts:
+  # ----------------------------------------------------------
+  # 2024/10 - Hurricane Milton & Housing
+  # ----------------------------------------------------------
+  - title: The new residents in Hurricane Milton's path
+    description: Mapping recent population growth and housing in areas threatened by Hurricane Milton.
+    base_url: 'https://milton-dc-story.netlify.app'
+    slug: milton
+    published: true
+    image: 2024-milton.webp
+    type: article
+    date: 2024-10-10
+    tags:
+      - gis
+      - united states
+      - us census
+    authors:
+      - vivek
+      - aman
+    code: 'https://github.com/diagram-chasing/milton'

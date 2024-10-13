@@ -8,7 +8,8 @@ export default {
 				chelsea: ['Chelsea Market', 'sans-serif'],
 				caslon: ['Libre Caslon Condensed', 'sans-serif'],
 				roboto: ['Roboto', 'sans-serif'],
-				phudu: ['Phudu Variable', 'sans-serif']
+				phudu: ['Phudu Variable', 'sans-serif'],
+				mono: ['monospace']
 			}
 		}
 	},

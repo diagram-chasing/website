@@ -1,7 +1,19 @@
 <script>
 	import SEO from '$components/primary/SEO.svelte';
-	import logo from '$assets/dc-logo.webp';
-	import IdeaGrid from '$lib/components/homepage/IdeaGrid.svelte';
+	import stories from '$content/stories.json';
+	import Listing from '$components/homepage/Listing.svelte';
+
+	let totalStories = stories.posts.length;
+	let filteredStories = stories.posts;
+	let currentFilter = 'All';
+
+	const filterStories = (type) => {
+		currentFilter = type;
+		filteredStories =
+			type === 'All'
+				? stories.posts
+				: stories.posts.filter((post) => post.type.toLowerCase() === type.toLowerCase());
+	};
 </script>
 
 <SEO
@@ -9,42 +21,50 @@
 	description="A publication of data-driven works of our interest, shared once in a while"
 />
 
-<section class="w-full max-w-sm pt-8 align-center">
-	<div
-		class="flex items-center justify-center px-2 mx-auto text-white bg-gray-800 rounded-md w-fit"
+<main class="relative w-full min-h-screen">
+	<header class="flex items-center justify-between w-full px-0 py-0 border-b border-black">
+		<nav aria-label="Story filter" class="p-0">
+			<ul class="flex gap-1 px-0">
+				{#each ['All'] as type}
+					<li>
+						<button
+							class="m-0 py-1 text-black {currentFilter === type ? 'font-bold' : ''}"
+							on:click={() => filterStories(type)}
+							aria-current={currentFilter === type ? 'page' : undefined}
+						>
+							{type}
+						</button>
+					</li>
+				{/each}
+			</ul>
+		</nav>
+		<p aria-live="polite" class="font-bold text-right font-roboto">
+			[{filteredStories.length}/{totalStories}]
+		</p>
+	</header>
+
+	<ul class="flex flex-col gap-2 px-0 z-2">
+		{#each filteredStories as post}
+			{#if post.published}
+				<li>
+					<Listing {...post} />
+				</li>
+			{/if}
+		{/each}
+	</ul>
+
+	<p
+		class="absolute z-0 w-full font-mono text-sm text-left text-gray-700 select-none bottom-12"
+		aria-live="polite"
 	>
-		<div class="w-3 h-3 mr-1 bg-yellow-400 rounded-full shadow-glow"></div>
-		<p class="font-mono text-xs font-bold text-center uppercase md:text-sm">Under construction</p>
-	</div>
-	<img
-		src={logo}
-		alt="Diagram Chasing"
-		class="p-1 mx-auto border-2 border-black rounded-lg size-48 md:size-72"
-	/>
-	<p class="mx-auto text-sm font-medium text-center w-52 md:text-xl">
-		A publication of data-driven works of our interest, shared once in a while
+		⧔ Not much else...for now ⧕
 	</p>
-
-	<p class="text-sm text-center w-52 md:text-md">by Aman & Vivek</p>
-
-	<hr class="my-4" />
-</section>
-<IdeaGrid />
+</main>
 
 <style>
-	section {
+	main {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		gap: 1rem;
-		margin: auto;
-	}
-
-	hr {
-		border-top: 1px solid #2a2a2a;
-	}
-
-	.shadow-glow {
-		box-shadow: 0 0 4px 1px rgba(250, 204, 21, 0.7);
 	}
 </style>
