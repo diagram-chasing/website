@@ -12,6 +12,6 @@ export async function load({ params }) {
 
 	return {
 		author: authorData.find((author) => author.slug === params.author),
-		posts: [storiesData.find((story) => story.authors.includes(params.author))]
+		posts: storiesData.filter((story) => story.authors.includes(params.author))
 	};
 }

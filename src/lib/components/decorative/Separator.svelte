@@ -4,9 +4,10 @@
 	export let symbol = '❋';
 	export let ariaLabel = 'Separator';
 	export let className = '';
+	export let padding = '';
 </script>
 
-<div class="px-2">
+<div class={twMerge(clsx('px-2', padding))}>
 	<div
 		role="separator"
 		aria-orientation="horizontal"

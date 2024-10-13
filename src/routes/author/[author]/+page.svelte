@@ -38,7 +38,9 @@
 	<section class="p-0">
 		<p class="font-mono text-xs text-gray-500">~/author/{author.slug}/</p>
 		<ul class="p-0 list-none">
-			{#each posts.filter((post) => post.published) as post}
+			{#each posts
+				.filter((post) => post.published)
+				.sort((a, b) => new Date(b.date) - new Date(a.date)) as post}
 				<li class="mb-2">
 					<Listing {...post} />
 				</li>

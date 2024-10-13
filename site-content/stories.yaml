@@ -1,5 +1,27 @@
 posts:
   # ----------------------------------------------------------
+  # 2024/4 - Who is my neta?
+  # ----------------------------------------------------------
+  - title: Who is my neta?
+    description:
+      See legislative activity and declared assets, criminal cases of MLAs from the 17th Lok Sabha
+      — or explore candidates contesting in the 2024 Lok Sabha elections.
+    base_url: https://whoismyneta.com
+    slug: false
+    published: true
+    image: 2024-whoismyneta.webp
+    type: interactive
+    date: 2024-04-14
+    tags:
+      - india
+      - elections
+    authors:
+      - vivek
+      - aman
+      - pravar
+    code: 'https://github.com/thedivtagguy/whoismyneta'
+
+  # ----------------------------------------------------------
   # 2024/10 - Hurricane Milton & Housing
   # ----------------------------------------------------------
   - title: The new residents in Hurricane Milton's path

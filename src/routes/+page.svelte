@@ -30,7 +30,7 @@
 	<header class="flex items-center justify-between w-full px-0 py-0 border-b border-black">
 		<nav aria-label="Story filter" class="p-0">
 			<ul class="flex gap-1 px-0">
-				{#each ['All'] as type}
+				{#each ['All', 'Article', 'Interactive'] as type}
 					<li>
 						<button
 							class="m-0 py-1 text-black {currentFilter === type ? 'font-bold' : ''}"
@@ -49,7 +49,7 @@
 	</header>
 
 	<ul class="flex flex-col gap-2 px-0 z-2">
-		{#each filteredStories as post}
+		{#each filteredStories.sort((a, b) => new Date(b.date) - new Date(a.date)) as post}
 			{#if post.published}
 				<li>
 					<Listing {...post} />
