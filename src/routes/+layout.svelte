@@ -13,11 +13,11 @@
 		class="flex flex-col items-center justify-between w-full gap-1 pt-4 pb-0 md:pb-2 md:gap-4 sm:flex-row sm:items-end"
 	>
 		<div class="flex items-center gap-4 sm:items-end">
-			<a href="/" class="p-0 m-0 w-fit size-24 md:size-32">
+			<a href="/" class="flex-shrink-0 w-fit">
 				<img
 					src={logo}
 					alt="Diagram Chasing"
-					class="w-full p-1 border border-gray-300 rounded-lg size-24 md:size-32"
+					class="w-24 p-1 border border-gray-300 rounded-lg md:w-32"
 				/>
 			</a>
 			<div class="flex flex-col flex-grow w-full gap-1">
