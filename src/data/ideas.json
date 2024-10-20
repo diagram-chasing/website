@@ -108,5 +108,25 @@
     "note_text": "",
     "show_on_page": "TRUE",
     "status": "WIP"
+  },
+  {
+    "date": "10-20-2024",
+    "pitch": "Trackguessr",
+    "originator": "Vonter",
+    "description": "Guess the song based on it's top countries today",
+    "data": "",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": "WIP"
+  },
+  {
+    "date": "10-20-2024",
+    "pitch": "Same name candidates",
+    "originator": "Aman",
+    "description": "explore smaller/independent candidates with similar names to those contesting for the main parties  (which are probably just put up to confuse people) for every election. ",
+    "data": "ECI (probably?)",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": "BACKLOG"
   }
 ]
