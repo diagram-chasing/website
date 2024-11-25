@@ -23,7 +23,7 @@
 			<div class="flex flex-col flex-grow w-full gap-1">
 				<h1 class="text-2xl font-bold md:text-4xl font-caslon">Diagram Chasing</h1>
 				<p class="m-0 text-xs font-medium text-left md:text-sm max-w-72 text-md">
-					A publication of data-driven works of various interests, shared once in a while
+					A blog of data-driven works of various interests, shared once in a while
 				</p>
 			</div>
 		</div>

@@ -50,7 +50,7 @@ posts:
     slug: blr-water-log
     published: true
     image: 2024-blr-water-log.webp
-    type: article
+    type: interactive
     date: 2024-11-18
     tags:
       - gis
