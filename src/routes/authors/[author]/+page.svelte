@@ -18,7 +18,10 @@
 />
 <div class="container font-mono text-sm leading-relaxed">
 	<header>
-		<span class="text-xs text-gray-500">~/authors</span>
+		<p class="font-mono text-xs text-gray-500">
+			<span class="px-0">$ ~/authors/{author.slug}</span>
+			<span class="">-h</span>
+		</p>
 		<h1 class="mt-2 text-2xl font-bold">{author.name}</h1>
 	</header>
 
@@ -36,8 +39,11 @@
 	</section>
 
 	<section class="p-0">
-		<p class="font-mono text-xs text-gray-500">~/author/{author.slug} ls</p>
-		<ul class="p-0 list-none">
+		<p class="font-mono text-xs text-gray-500">
+			<span class="">$ ~/authors/{author.slug}</span>
+			<span class="">ls</span>
+		</p>
+		<ul class="p-0 mt-3 list-none">
 			{#each posts
 				.filter((post) => post.published)
 				.sort((a, b) => new Date(b.date) - new Date(a.date)) as post}

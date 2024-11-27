@@ -31,7 +31,6 @@
 />
 <div class="container font-mono text-sm leading-relaxed">
 	<header>
-		<span class="text-xs text-gray-500">~/authors</span>
 		<h1 class="mt-2 text-2xl font-bold">Authors</h1>
 		<p class="mb-2 font-roboto">People who have contributed to Diagram Chasing's work.</p>
 	</header>
