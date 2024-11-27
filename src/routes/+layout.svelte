@@ -53,22 +53,20 @@
 	class="flex flex-col items-center justify-between w-full px-2 pb-4 sm:px-0 sm:flex-row sm:items-center"
 >
 	<p class="w-full text-xs font-caslon">
-		Brought to you by <a
-			href="/author/aman"
-			class="underline underline-offset-4 hover:decoration-wavy">Aman</a
-		>
-		& <a class="underline underline-offset-4 hover:decoration-wavy" href="/author/vivek">Vivek</a>
+		Brought to you by <a href="/authors" class="underline underline-offset-4 hover:decoration-wavy">
+			some of these people
+		</a>
 	</p>
 
 	<aside>
-		<p class="font-mono text-[0.6rem]">⫽ Published {process.env.BUILD_TIME} ⫽</p>
+		<p class="font-mono md:text-center text-[0.6rem]">⫽ Published {process.env.BUILD_TIME} ⫽</p>
 	</aside>
 	<a
 		href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
-		class="p-0 m-0 mt-2 sm:mt-0"
+		class="w-full p-0 m-0 mt-2 sm:mt-0"
 		target="_blank"
 	>
-		<img src={license} alt="Content licensed under CC" class="h-[15px] w-[85px]" />
+		<img src={license} alt="Content licensed under CC" class="h-[15px] w-[85px] md:ml-auto" />
 	</a>
 </footer>
 

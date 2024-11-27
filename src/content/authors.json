@@ -1,44 +1,58 @@
 {
-  "authors": [
-    {
-      "name": "Vivek Matthew",
-      "description": "Vivek is an open-data enthusiast and a contributor to the OpenStreetMap project, especially in India.",
-      "links": [
-        {
-          "github": "https://github.com/Vonter"
-        },
-        {
-          "twitter": "https://twitter.com/Vonterinon"
-        },
-        {
-          "bluesky": "https://bsky.app/profile/vonter.bsky.social"
-        },
-        {
-          "website": "https://vonter.in"
-        }
-      ],
-      "image": null,
-      "slug": "vivek"
-    },
-    {
-      "name": "Aman Bhargava",
-      "description": "Aman is a designer who plays the part of a data visualization & front-end developer with an interest in maps.",
-      "links": [
-        {
-          "github": "https://github.com/thedivtagguy"
-        },
-        {
-          "twitter": "https://twitter.com/thedivtagguy"
-        },
-        {
-          "bluesky": "https://bsky.app/profile/aman.bh"
-        },
-        {
-          "website": "https://aman.bh"
-        }
-      ],
-      "slug": "aman",
-      "image": "aman.webp"
-    }
-  ]
+	"authors": [
+		{
+			"name": "Vivek Matthew",
+			"description": "Vivek is an open-data enthusiast and a contributor to the OpenStreetMap project, especially in India.",
+			"links": [
+				{
+					"github": "https://github.com/Vonter"
+				},
+				{
+					"twitter": "https://twitter.com/Vonterinon"
+				},
+				{
+					"bluesky": "https://bsky.app/profile/vonter.bsky.social"
+				},
+				{
+					"website": "https://vonter.in"
+				}
+			],
+			"image": null,
+			"slug": "vivek"
+		},
+		{
+			"name": "Aman Bhargava",
+			"description": "Aman is a designer who plays the part of a data visualization & front-end developer with an interest in maps.",
+			"links": [
+				{
+					"github": "https://github.com/thedivtagguy"
+				},
+				{
+					"twitter": "https://twitter.com/thedivtagguy"
+				},
+				{
+					"bluesky": "https://bsky.app/profile/aman.bh"
+				},
+				{
+					"website": "https://aman.bh"
+				}
+			],
+			"slug": "aman",
+			"image": "aman.webp"
+		},
+		{
+			"name": "Reechik Bannerjee",
+			"description": "Reechik is an illustrator and animator who works across media.",
+			"links": [
+				{
+					"website": "https://reechik.com"
+				},
+				{
+					"instagram": "https://instagram.com/ar.biese"
+				}
+			],
+			"slug": "reechik",
+			"image": "reechik.webp"
+		}
+	]
 }

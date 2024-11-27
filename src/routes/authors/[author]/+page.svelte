@@ -18,13 +18,13 @@
 />
 <div class="container font-mono text-sm leading-relaxed">
 	<header>
-		<span class="text-xs text-gray-500">~/author</span>
+		<span class="text-xs text-gray-500">~/authors</span>
 		<h1 class="mt-2 text-2xl font-bold">{author.name}</h1>
 	</header>
 
 	<section class="mb-8">
 		<p class="break-words whitespace-pre-wrap font-roboto">{author.description}</p>
-		<ul class="flex flex-col gap-1 p-0 mt-4 text-xs list-none">
+		<ul class="flex flex-col gap-1 p-0 mt-4 ml-1 text-xs list-none">
 			{#each author.links as link}
 				{#each Object.entries(link) as [name, url]}
 					<li>
@@ -36,7 +36,7 @@
 	</section>
 
 	<section class="p-0">
-		<p class="font-mono text-xs text-gray-500">~/author/{author.slug}/</p>
+		<p class="font-mono text-xs text-gray-500">~/author/{author.slug} ls</p>
 		<ul class="p-0 list-none">
 			{#each posts
 				.filter((post) => post.published)

@@ -60,3 +60,22 @@ posts:
       - aman
       - vivek
     code: 'https://github.com/diagram-chasing/blr-water-log'
+
+  # ----------------------------------------------------------
+  # 2024/11 - Votes in a name?
+  # ----------------------------------------------------------
+  - title: Votes in a name?
+    description: Finding namesake candidates in India's elections and how they impact the election.
+    base_url: 'https://blr-rains.netlify.app'
+    slug: votes-in-a-name
+    published: true
+    image: 2024-blr-water-log.webp
+    type: stories
+    date: 2024-11-30
+    tags:
+      - elections
+      - india
+    authors:
+      - aman
+      - reechik
+    code: 'https://github.com/diagram-chasing/blr-water-log'

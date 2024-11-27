@@ -18,3 +18,11 @@ authors:
       - website: https://aman.bh
     slug: aman
     image: aman.webp
+
+  - name: Reechik Bannerjee
+    description: Reechik is an illustrator and animator who works across media.
+    links:
+      - website: https://reechik.com
+      - instagram: https://www.instagram.com/ar.biese/
+    slug: reechik
+    image: aman.webp
