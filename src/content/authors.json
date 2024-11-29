@@ -39,20 +39,6 @@
 			],
 			"slug": "aman",
 			"image": "aman.webp"
-		},
-		{
-			"name": "Reechik Bannerjee",
-			"description": "Reechik is an illustrator and animator who works across media.",
-			"links": [
-				{
-					"website": "https://reechik.com"
-				},
-				{
-					"instagram": "https://instagram.com/ar.biese"
-				}
-			],
-			"slug": "reechik",
-			"image": "reechik.webp"
 		}
 	]
 }
