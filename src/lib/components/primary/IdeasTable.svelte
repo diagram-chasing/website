@@ -16,6 +16,7 @@
 
 <div class="container px-4 mx-auto font-mono">
 	<h2 class="text-2xl font-bold">Ideas log</h2>
+	<a href="https://diagramchasing.fun/2024/votes-in-a-name" class="absolute invisible">Google</a>
 	<p class="mb-6 font-roboto">
 		We keep our ideas and what we might be working on open. If any of these vague descriptions (even
 		if seemingly abandoned) interests you, come help us work on it if you want.
