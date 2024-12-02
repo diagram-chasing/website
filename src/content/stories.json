@@ -34,10 +34,23 @@
 			"published": true,
 			"image": "2024-blr-water-log.webp",
 			"type": "interactive",
-			"date": "2024-11-08",
+			"date": "2024-11-18",
 			"tags": ["gis", "flood", "bangalore"],
 			"authors": ["aman", "vivek"],
 			"code": "https://github.com/diagram-chasing/blr-water-log"
+		},
+		{
+			"title": "Votes in a name",
+			"description": "Finding namesake candidates in India's elections and how they impact the election.",
+			"base_url": "https://blr-rains.netlify.app",
+			"slug": "votes-in-a-name",
+			"published": true,
+			"image": "2024-votes-in-a-name.webp",
+			"type": "article",
+			"date": "2024-12-3",
+			"tags": ["elections", "india"],
+			"authors": ["aman", "reechik"],
+			"code": "https://github.com/diagram-chasing/votes-in-a-name"
 		}
 	]
 }

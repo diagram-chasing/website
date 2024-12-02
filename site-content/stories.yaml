@@ -71,11 +71,11 @@ posts:
     published: true
     image: 2024-blr-water-log.webp
     type: stories
-    date: 2024-11-30
+    date: 2024-12-3
     tags:
       - elections
       - india
     authors:
       - aman
       - reechik
-    code: 'https://github.com/diagram-chasing/blr-water-log'
+    code: 'https://github.com/diagram-chasing/votes-in-a-name'
