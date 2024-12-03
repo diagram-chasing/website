@@ -46,7 +46,7 @@
     "description": "mapping the chances of where the ingredients used to make my food come from. ",
     "data": "https://www.icrisat.org/",
     "note_text": "Map probability of food ingredient origins.",
-    "show_on_page": "TRUE",
+    "show_on_page": "FALSE",
     "status": ""
   },
   {
@@ -127,10 +127,10 @@
     "data": "ECI (probably?)",
     "note_text": "",
     "show_on_page": "TRUE",
-    "status": "WIP"
+    "status": "PUBLISHED"
   },
   {
-    "date": "10-22-2034",
+    "date": "10-22-2024",
     "pitch": "Bangalore Flood Risk Map",
     "originator": "VA",
     "description": "A detailed map of Bangalore and surrounding areas illustrating their risk of flooding by looking at drainage and catchment areas",
@@ -138,5 +138,15 @@
     "note_text": "",
     "show_on_page": "TRUE",
     "status": "PUBLISHED"
+  },
+  {
+    "date": "12-2-2024",
+    "pitch": "How do Indians spend their time",
+    "originator": "Aman",
+    "description": "Map/live \"clock\" of activity across the country based on national time use survey. At any given time, what are people doing? disaggregate/aggregate based on interesting variables.",
+    "data": "National Time Use Survey 2019 https://data.opencity.in/dataset/national-time-use-survey-2019",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": ""
   }
 ]
