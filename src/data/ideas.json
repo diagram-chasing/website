@@ -6,7 +6,7 @@
     "description": "will be interesting to see economic growth disparities between urban and rural areas, and south vs north india\nwithin karnataka also, how much blr's dominance has increased over time",
     "data": "",
     "note_text": "Compare urban vs rural & S vs N econ growth. For example within K, track Bangalore's rise",
-    "show_on_page": "TRUE",
+    "show_on_page": "FALSE",
     "status": ""
   },
   {
@@ -76,7 +76,7 @@
     "description": "A network graph of blr with named entities would be fun. I'd still want to see it. Like a who's who or what's what based on topic for a city. Especially something like blr which is constantly in the news. ",
     "data": "NULL",
     "note_text": "Network graph of Bangalore's key entities & relationships. 'Who's who' of city based on news topics.",
-    "show_on_page": "TRUE",
+    "show_on_page": "FALSE",
     "status": ""
   },
   {
@@ -107,7 +107,7 @@
     "data": "https://doc.api.soundcharts.com/api/v2/doc/ , https://charts.youtube.com/location/0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0, https://kworb.net/ww/archive/",
     "note_text": "",
     "show_on_page": "TRUE",
-    "status": "WIP"
+    "status": ""
   },
   {
     "date": "10-20-2024",
@@ -117,7 +117,7 @@
     "data": "",
     "note_text": "",
     "show_on_page": "TRUE",
-    "status": "WIP"
+    "status": ""
   },
   {
     "date": "10-20-2024",
@@ -145,6 +145,36 @@
     "originator": "Aman",
     "description": "Map/live \"clock\" of activity across the country based on national time use survey. At any given time, what are people doing? disaggregate/aggregate based on interesting variables.",
     "data": "National Time Use Survey 2019 https://data.opencity.in/dataset/national-time-use-survey-2019",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": ""
+  },
+  {
+    "date": "12-22-2024",
+    "pitch": "What kind of NYT Mini clues confuse specific countries?",
+    "originator": "Aman",
+    "description": "Sometimes I find myself googling slightly difficult or US-specific crossword clues. Are there countries more confused than others?",
+    "data": "Google Trends, NYT Mini Clues",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": ""
+  },
+  {
+    "date": "12-22-2024",
+    "pitch": "Straightening the highways",
+    "originator": "Aman",
+    "description": "Where and why are highways losing their winding roads? Who gets affected when you cut straight through the land?",
+    "data": "",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": ""
+  },
+  {
+    "date": "12-22-2024",
+    "pitch": "Visualizing the New York of Robert Moses",
+    "originator": "Aman",
+    "description": "The first chapter of 'The Power Broker' is a fascinating, almost cinematic, summary of the entire book. I'd like to visualize the chapter in an interactive story form.",
+    "data": "The Power Broker, Old maps, photographs",
     "note_text": "",
     "show_on_page": "TRUE",
     "status": ""
