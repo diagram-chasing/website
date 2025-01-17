@@ -1,56 +1,83 @@
 {
-	"posts": [
-		{
-			"title": "Who is my neta?",
-			"description": "See legislative activity and declared assets, criminal cases of MLAs from the 17th Lok Sabha — or explore candidates contesting in the 2024 Lok Sabha elections.",
-			"base_url": "https://whoismyneta.com",
-			"slug": false,
-			"published": true,
-			"image": "2024-whoismyneta.webp",
-			"type": "interactive",
-			"date": "2024-04-14",
-			"tags": ["india", "elections"],
-			"authors": ["vivek", "aman", "pravar"],
-			"code": "https://github.com/thedivtagguy/whoismyneta"
-		},
-		{
-			"title": "The new residents in Hurricane Milton's path",
-			"description": "Mapping recent population growth and housing in areas threatened by Hurricane Milton.",
-			"base_url": "https://milton-dc-story.netlify.app",
-			"slug": "milton",
-			"published": true,
-			"image": "2024-milton.webp",
-			"type": "article",
-			"date": "2024-10-10",
-			"tags": ["gis", "united states", "us census"],
-			"authors": ["vivek", "aman"],
-			"code": "https://github.com/diagram-chasing/milton"
-		},
-		{
-			"title": "BLR Water Log",
-			"description": "Natural drains crisscross Bangalore and are often the places which are the first to flood. We mapped where these are.",
-			"base_url": "https://blr-rains.netlify.app",
-			"slug": "blr-water-log",
-			"published": true,
-			"image": "2024-blr-water-log.webp",
-			"type": "interactive",
-			"date": "2024-11-18",
-			"tags": ["gis", "flood", "bangalore"],
-			"authors": ["aman", "vivek"],
-			"code": "https://github.com/diagram-chasing/blr-water-log"
-		},
-		{
-			"title": "Votes in a name",
-			"description": "Finding namesake candidates in India's elections and how they impact the election.",
-			"base_url": "https://blr-rains.netlify.app",
-			"slug": "votes-in-a-name",
-			"published": true,
-			"image": "2024-votes-in-a-name.webp",
-			"type": "article",
-			"date": "2024-12-3",
-			"tags": ["elections", "india"],
-			"authors": ["aman", "reechik"],
-			"code": "https://github.com/diagram-chasing/votes-in-a-name"
-		}
-	]
+  "posts": [
+    {
+      "title": "Who is my neta?",
+      "description": "See legislative activity and declared assets, criminal cases of MLAs from the 17th Lok Sabha — or explore candidates contesting in the 2024 Lok Sabha elections.",
+      "base_url": "https://whoismyneta.com",
+      "slug": false,
+      "published": true,
+      "image": "2024-whoismyneta.webp",
+      "type": "interactive",
+      "date": "2024-04-14",
+      "tags": [
+        "india",
+        "elections"
+      ],
+      "authors": [
+        "vivek",
+        "aman",
+        "pravar"
+      ],
+      "code": "https://github.com/thedivtagguy/whoismyneta"
+    },
+    {
+      "title": "The new residents in Hurricane Milton's path",
+      "description": "Mapping recent population growth and housing in areas threatened by Hurricane Milton.",
+      "base_url": "https://milton-dc-story.netlify.app",
+      "slug": "milton",
+      "published": true,
+      "image": "2024-milton.webp",
+      "type": "article",
+      "date": "2024-10-10",
+      "tags": [
+        "gis",
+        "united states",
+        "us census"
+      ],
+      "authors": [
+        "vivek",
+        "aman"
+      ],
+      "code": "https://github.com/diagram-chasing/milton"
+    },
+    {
+      "title": "BLR Water Log",
+      "description": "Natural drains crisscross Bangalore and are often the places which are the first to flood. We mapped where these are.",
+      "base_url": "https://blr-rains.netlify.app",
+      "slug": "blr-water-log",
+      "published": true,
+      "image": "2024-blr-water-log.webp",
+      "type": "interactive",
+      "date": "2024-11-18",
+      "tags": [
+        "gis",
+        "flood",
+        "bangalore"
+      ],
+      "authors": [
+        "aman",
+        "vivek"
+      ],
+      "code": "https://github.com/diagram-chasing/blr-water-log"
+    },
+    {
+      "title": "Votes in a name?",
+      "description": "Finding namesake candidates in India's elections and how they impact the election.",
+      "base_url": "https://blr-rains.netlify.app",
+      "slug": "votes-in-a-name",
+      "published": true,
+      "image": "2024-blr-water-log.webp",
+      "type": "stories",
+      "date": "2024-12-3",
+      "tags": [
+        "elections",
+        "india"
+      ],
+      "authors": [
+        "aman",
+        "reechik"
+      ],
+      "code": "https://github.com/diagram-chasing/votes-in-a-name"
+    }
+  ]
 }
