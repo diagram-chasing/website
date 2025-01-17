@@ -178,5 +178,15 @@
     "note_text": "",
     "show_on_page": "TRUE",
     "status": ""
+  },
+  {
+    "date": "01-17-2025",
+    "pitch": "Missed Connections",
+    "originator": "Aman",
+    "description": "Where are people most likely to miss connections (bus/metro) in BLR? Do slight schedule adjustments make a difference?",
+    "data": "BLR GTFS",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": ""
   }
 ]
