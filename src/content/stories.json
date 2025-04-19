@@ -66,7 +66,7 @@
       "base_url": "https://blr-rains.netlify.app",
       "slug": "votes-in-a-name",
       "published": true,
-      "image": "2024-blr-water-log.webp",
+      "image": "2024-votes-in-a-name.webp",
       "type": "stories",
       "date": "2024-12-3",
       "tags": [
@@ -78,6 +78,25 @@
         "reechik"
       ],
       "code": "https://github.com/diagram-chasing/votes-in-a-name"
+    },
+    {
+      "title": "India Time Use Explorer",
+      "description": "Explore the Time Use Survey data of India in your browser.",
+      "base_url": "https://india-time-use-explorer.netlify.app",
+      "slug": "time-use-explorer",
+      "published": true,
+      "image": "2025-time-use-explorer.webp",
+      "type": "interactive",
+      "date": "2025-04-20",
+      "tags": [
+        "india",
+        "time use survey"
+      ],
+      "authors": [
+        "aman",
+        "vivek"
+      ],
+      "code": "https://github.com/diagram-chasing/time-use-explorer"
     }
   ]
 }
