@@ -17,7 +17,7 @@
     "data": "https://sustainability.fb.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/",
     "note_text": "Compare local tree coverage to city averages",
     "show_on_page": "TRUE",
-    "status": "WIP"
+    "status": ""
   },
   {
     "date": "16-5-2024",
@@ -208,5 +208,35 @@
     "note_text": "",
     "show_on_page": "TRUE",
     "status": ""
+  },
+  {
+    "date": "12-18-2024",
+    "pitch": "Censor Board Cuts",
+    "originator": "Aman",
+    "description": "An interactive explorer that makes viewing CBFC censorship of any film released in India searchable. Also tag descriptions and generate summary stats. ",
+    "data": "CBFC, E-Cinepramaan",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": "WIP"
+  },
+  {
+    "date": "02-25-2025",
+    "pitch": "Weather extremes",
+    "originator": "VA",
+    "description": "Is your city above, below or normal in terms of heat, rain, humidity, cloudiness this week based on historical data? ",
+    "data": "IMD, ERA5",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": "WIP"
+  },
+  {
+    "date": "03-21-2025",
+    "pitch": "Time Use Explorer",
+    "originator": "VA",
+    "description": "Explore national time use data easily",
+    "data": "https://github.com/Vonter/india-timeuse-survey",
+    "note_text": "",
+    "show_on_page": "TRUE",
+    "status": "PUBLISHED"
   }
 ]
