@@ -33,13 +33,17 @@
 			<a class="no-underline hover:underline whitespace-nowrap underline-offset-4" href="/"
 				>~/home</a
 			>
+			<a class="no-underline hover:underline whitespace-nowrap underline-offset-4" href="/authors"
+				>~/authors</a
+			>
 			<a class="no-underline hover:underline whitespace-nowrap underline-offset-4" href="/ideas"
 				>~/ideas</a
 			>
+			
 		</nav>
 	</header>
 	<Separator />
-</div>
+	</div>	
 
 <div class="px-2 app">
 	<main>

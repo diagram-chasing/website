@@ -1,8 +1,13 @@
 <script>
 	export let data;
 	$: ideas = data.content.sort((a, b) => {
+		// WIP should be first
+		if (a.status === 'WIP' && b.status !== 'WIP') return -1;
+		if (a.status !== 'WIP' && b.status === 'WIP') return 1;
+		// PUBLISHED should be last
 		if (a.status === 'PUBLISHED' && b.status !== 'PUBLISHED') return 1;
 		if (a.status !== 'PUBLISHED' && b.status === 'PUBLISHED') return -1;
+		// For other statuses, maintain their relative order
 		return 0;
 	});
 
